@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Web bán tiểu thuyết </title>
+        <link rel="icon" href="assets/logoweb.png">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <link rel="stylesheet" href="giohang.css">
+    </head>
+
+    <body>
+
+        <div id="wrapper">
+            <div id="header">
+                <a href class="logo">
+                    <a href="index.html"><img src="assets/logo.png"
+                            width="50%" alt="logo"></a>
+                </a>
+                <div id="menu">
+                    <div class="item">
+                        <a href="index.html">Trang chủ</a>
+                    </div>
+                    <div class="item">
+                        <ul class="menugo">
+                            <li><a href="theloai.html">Thể loại</a>
+                                <ul>
+                                    <li><button>Danh sách thể loại</button></li>
+                                    <li><a href="vientuong.html"> Viễn tưởng</a>
+                                    </li>
+
+                                    <li><a href="langman.html"> Lãng mạn</a>
+                                    </li>
+                                    <li><a href="kinhdi.html">Kinh dị</a> </li>
+                                    <li> <a href="tutruyen.html">Tự
+                                            truyện</a></li>
+                                    <li><a href="tanvan.html">Tản văn</a></li>
+                                    <li><a href="lichsu.html"> Lịch sử</a></li>
+                                    <li><a href="vanhocvietnam.html"> Văn học
+                                            Việt Nam</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <a href="giohang.html">Giỏ hàng</a>
+
+                    </div>
+                    <div class="item">
+                        <a href="lienhe.html">Liên hệ</a>
+                    </div>
+                    <div class="item">
+                        <form action="#">
+                            <input type="text"
+                                placeholder="Nhập từ khóa">
+                            <a href="#"><i class="fa-solid fa-search"
+                                    title="Tìm kiếm"></i></a>
+                        </form>
+                    </div>
+                </div>
+                <div id="actions">
+                    <div class="item">
+                        <a href="dangnhap.html"><img src="assets/user.png"
+                                title="Đăng nhập" alt></a>
+                    </div>
+                    <div class="item">
+                        <a href="giohang.html"><img src="assets/cart.png"
+                                title="Giỏ hàng" alt></a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Giỏ Hàng</h5>
+
+                    </div>
+                    <div class="modal-body">
+                        <div class="cart-row">
+                            <span class="cart-item cart-header cart-column">Sản
+                                Phẩm</span>
+                            <span
+                                class="cart-price cart-header cart-column">Giá</span>
+                            <span
+                                class="cart-quantity cart-header cart-column">Số
+                                Lượng</span>
+                        </div>
+                        <div class="cart-items">
+                            <div class="cart-row">
+                                <div class="cart-item cart-column">
+                                    <img class="cart-item-image"
+                                        src="assets/caycamngot.png"
+                                        width="100" height="100">
+                                    <span class="cart-item-title">Cây cam ngọt</span>
+                                </div>
+                                <span
+                                    class="cart-price cart-column">84000 VNĐ</span>
+                                <div class="cart-quantity cart-column">
+                                    <input class="cart-quantity-input"
+                                        type="number" value="1">
+                                    <button class="btn btn-danger"
+                                        type="button">Xóa</button>
+                                </div>
+                            </div>
+                            <div class="cart-row">
+                                <div class="cart-item cart-column">
+                                    <img class="cart-item-image"
+                                        src="assets/rungnauy.png"
+                                        width="100" height="100">
+                                    <span class="cart-item-title">Rừng Na-Uy</span>
+                                </div>
+                                <span
+                                    class="cart-price cart-column">117000 VNĐ</span>
+                                <div class="cart-quantity cart-column">
+                                    <input class="cart-quantity-input"
+                                        type="number" value="2">
+                                    <button class="btn btn-danger"
+                                        type="button">Xóa</button>
+                                </div>
+                            </div>
+                            <div class="cart-row">
+                                <div class="cart-item cart-column">
+                                    <img class="cart-item-image"
+                                        src="assets/cuontheochieugio.png"
+                                        width="100" height="100">
+                                    <span class="cart-item-title">Cuốn theo chiều gió</span>
+                                </div>
+                                <span
+                                    class="cart-price cart-column">110000 VNĐ</span>
+                                <div class="cart-quantity cart-column">
+                                    <input class="cart-quantity-input"
+                                        type="number" value="1">
+                                    <button class="btn btn-danger"
+                                        type="button">Xóa</button>
+                                </div>
+                            </div>
+                            <div class="cart-total">
+                                <strong class="cart-total-title">Tổng
+                                    Cộng:</strong>
+                                <span class="cart-total-price">0VNĐ</span>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            
+                            <button type="button"
+                                class="btn btn-primary order">Thanh
+                                Toán</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="footer">
+                    <div class="box">
+                        <div class="logo">
+                            <img src="assets/logo.png" alt>
+                        </div>
+                        <p>Cung cấp sản phẩm với chất lượng an toàn cho quý
+                            khách</p>
+                    </div>
+
+                    <div class="box">
+                        <h3>LIÊN HỆ</h3>
+                        <form action>
+                            <input type="text" placeholder="Địa chỉ email">
+                            <button>Nhận tin</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <script src="script.js"></script>
+        </body>
+    </html>

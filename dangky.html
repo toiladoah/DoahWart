@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Web bán tiểu thuyết </title>
+        <link rel="icon" href="assets/logoweb.png">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <link rel="stylesheet" href="dangnhap.css">
+    </head>
+
+    <body>
+
+        <div id="wrapper">
+            <div id="header">
+                <a href class="logo">
+                    <a href="index.html"><img src="assets/logo.png"
+                            width="50%" alt="logo"></a>
+                </a>
+                <div id="menu">
+                    <div class="item">
+                        <a href="index.html">Trang chủ</a>
+                    </div>
+                    <div class="item">
+                        <a href="giohang.html">Giỏ hàng</a>
+                    </div>
+                    <div class="item">
+                        <a href="theloai.html">Thể loại</a>
+                    </div>
+                    <div class="item">
+                        <a href="lienhe.html">Liên hệ</a>
+                    </div>
+                    <div class="item">
+                        <form action="#">
+                            <input type="text"
+                                placeholder="Nhập từ khóa">
+                            <a href="#"><i class="fa-solid fa-search"
+                                    title="Tìm kiếm"></i></a>
+                        </form>
+                    </div>
+                </div>
+                <div id="actions">
+                    <div class="item">
+                        <a href="dangnhap.html"><img src="assets/user.png"
+                                title="Đăng nhập" alt></a>
+                    </div>
+                    <div class="item">
+                        <a href="giohang.html"><img src="assets/cart.png"
+                                title="Giỏ hàng" alt></a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="login-container">
+                <form action id="form-login">
+                    <h1 class="form-heading">Đăng ký tài khoản</h1>
+                    <div class="form-group">
+                        <i class="far fa-user"></i>
+                        <input type="text" class="form-input"
+                            placeholder="Họ và tên" required>
+                    </div>
+                    <div class="form-group">
+                        <i class="far fa-calendar-alt"></i>
+                        <input type="date" class="form-input"
+                            placeholder="Ngày sinh" required>
+                    </div>
+                    <div class="form-group">
+                        <i class="fas fa-phone"></i>
+                        <input type="tel" class="form-input"
+                            placeholder="Số điện thoại" pattern="[0-9]{10}" required>
+                    </div>
+                    <div class="form-group">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" class="form-input"
+                            placeholder="Email" >
+                    </div>
+                    <div class="form-group">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <input type="text" class="form-input"
+                            placeholder="Địa chỉ" required>
+                    </div>
+                    <div class="form-group">
+                        <i class="far fa-user"></i>
+                        <input type="text" class="form-input"
+                            placeholder="Tên tài khoản đăng nhập" required>
+                    </div>
+                    <div class="form-group">
+                        <i class="fas fa-key"></i>
+                        <input type="password" class="form-input"
+                            placeholder="Mật khẩu" required>
+                        <div id="eye">
+                            <i class="far fa-eye"></i>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <i class="fas fa-key"></i>
+                        <input type="password" class="form-input"
+                            placeholder="Xác nhận mật khẩu" required>
+                        <div id="eye">
+                            <i class="far fa-eye"></i>
+                        </div>
+                    </div>
+                    <p class="form-footer">Bạn đã có tài khoản? <a
+                            href="dangnhap.html">Đăng nhập tại đây</a></p>
+                    <input type="submit" value="Đăng ký" class="form-submit">
+                </form>
+            </div>
+
+            <div id="footer">
+                <div class="box">
+                    <div class="logo">
+                        <img src="assets/logo.png" alt>
+                    </div>
+                    <p>Cung cấp sản phẩm với chất lượng an toàn cho quý
+                        khách</p>
+                </div>
+                
+                <div class="box">
+                    <h3>LIÊN HỆ</h3>
+                    <form action>
+                        <input type="text" placeholder="Địa chỉ email">
+                        <button>Nhận tin</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="dangnhap.js"></script>
+    </body>
+</html>
